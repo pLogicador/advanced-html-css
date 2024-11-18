@@ -1,0 +1,35 @@
+.main-bg {
+    background-image: url('../images/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--light-color);
+}
+
+.default-bg {
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 9rem var(--default-gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 65px;
+}
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+body .full-width {
+    width: 100px;
+    flex: 1 1 100%;
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/global-styles.css">
+    <link rel="stylesheet" href="assets/css/df-classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu default-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+            
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid two</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Advanced HTML5, CSS3 And JavaScript</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident distinctio neque commodi ea temporibus, pariatur blanditiis quae error perferendis, velit cumque maiores fuga sint, nam architecto fugiat saepe excepturi molestias?
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/images/undraw-html-css-js.svg" alt="JavaScript HTML and CSS Logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="default-bg section">
+        <div class="main-content about-content">
+            <h2>The Role of Charset in HTML</h2>
+            <p>
+                The charset (or character set) in HTML and other contexts serves to tell the browser (or the program that is displaying the content) what encoding is used to interpret these bytes and transform them into the visible characters that make up the text. 
+            </p>
+            <p>
+                This parameter is essential for the browser to be able to display accented characters and specific symbols correctly, especially in languages that use accents, cedillas, and other special characters.
+            </p>
+            <h2>How Charset Works</h2>
+            <p>
+                The most commonly used charset on the web today is UTF-8. It is an encoding that includes all the characters of most writing systems in the world and is widely compatible, which solves most character compatibility problems. 
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Another title Here</h2>
+            <p class="grid-description">A brief description.</p>
+            <div class="grid">
+                <article>
+                    <h3>Test 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+                <article>
+                    <h3>Test 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+                <article>
+                    <h3>Test 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one default-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">A brief description.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=1" alt="Randomly generated illustrative image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=2" alt="Randomly generated illustrative image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=3" alt="Randomly generated illustrative image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=4" alt="Randomly generated illustrative image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=5" alt="Randomly generated illustrative image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?r=6" alt="Randomly generated illustrative image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">This is my Grid Two</h2>
+            <p class="grid-description">A brief description.</p>
+            <div class="grid">
+                <article>
+                    <h3>Test 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+                <article>
+                    <h3>Test 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+                <article>
+                    <h3>Test 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at laudantium provident aperiam soluta laboriosam fugiat fugit, consectetur necessitatibus. Veritatis saepe laborum tempore vitae inventore dolor dolorum beatae dicta animi?
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="default-bg section">
+        <div class="main-content about-content">
+            <h2>Pricing</h2>
+            <p>
+                The charset (or character set) in HTML and other contexts serves to tell the browser (or the program that is displaying the content) what encoding is used to interpret these bytes and transform them into the visible characters that make up the text. 
+            </p>
+            <p>
+                This parameter is essential for the browser to be able to display accented characters and specific symbols correctly, especially in languages that use accents, cedillas, and other special characters.
+            </p>
+            
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1 and more text here...</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testing</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident distinctio neque commodi ea temporibus, pariatur blanditiis quae error perferendis, velit cumque maiores fuga sint, nam architecto fugiat saepe excepturi molestias?
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/images/undraw_contact.svg" alt="A character holding an email envelope Logo">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name"
+                        placeholder="Your first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" 
+                        placeholder="Your email">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Your message here"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+
+                </fieldset>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer id="footer" class="footer default-bg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/pLogicador">Developed by pLogicador</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">⮙</a>
+</body>
+</html>
